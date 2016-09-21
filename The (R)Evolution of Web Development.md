@@ -47,9 +47,18 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
   - Major milestones: Node
   - Code Sharing: Github
   - Common data format: JSON
+  
+- History of Javascript
+  - Invention  
+  - ES3
+  - ES5
+  - Node
+  - ES6
+  - Beyond
 
 ## The Modern Web Dev Landscape
 
+- "Dancing Monkeys" (?)
   
   
 
