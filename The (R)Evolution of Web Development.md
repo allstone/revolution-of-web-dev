@@ -20,8 +20,40 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
 
 ## A Brief History of Web Development
 
+- Web 1.0 (1991-2001)
+  - Typical site: static HTML, hosted on GeoCities, and written in FrontPage or DreamWeaver
+  - Technologies: /CGI-BIN -> Perl -> PHP/ASP -> Java / .NET
+  - Applications: scripts or mid-sized servers
+  - Interactivity: Java applets, ActiveX, DHTML
+  - Browsers: Mosaic, Netscape, IE
+  - Major milestones: Birth of JS 
+  - Code sharing: "script list" sites
+  - Common data format: plain HTML with tables
+- Web 2.0 (2001-2010)
+  - Typical site: server-rendered pages, MySQL database, running on J2EE or Rails  
+  - Server technologies: J2EE, ASP.NET, Rails, Django, LAMP
+  - Client technologies: AJAX, MooTools/Prototype, jQuery
+  - Browsers: Mozilla -> Firefox, IE6 -> IE8, Opera, Chrome
+  - Rich Internet Applications (Flash, Silverlight, GWT)
+  - Major milestones: AJAX, smartphones
+  - Code sharing: SourceForge
+  - Common data format: XML
+- The Modern Era (2010-2016)
+  - Typical site: client-side JS, JSON API, microservices built with Node
+  - Server technologies: Node, ...
+  - Client technologies: HTML5, Backbone, Angular, Ember, React, Bootstrap
+  - Browsers: Chrome, FF, Edge, all "evergreen"
+  - Single-Page Applications
+  - Major milestones: Node
+  - Code Sharing: Github
+  - Common data format: JSON
 
 ## The Modern Web Dev Landscape
 
+  
+  
+
 
 ## Building a Modern Web App
+
+- Problem/solution
