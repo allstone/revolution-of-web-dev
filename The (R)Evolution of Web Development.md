@@ -1,13 +1,5 @@
 # The (R)Evolution of Web Development
 
-https://github.com/markerikson/speaking-for-hackers-book/blob/master/before-your-talk.txt
-
-
-*"I start nearly all my talks like this: "My name is Ben Orenstein and I work for thoughtbot. This talk is about why vim is the greatest text editor ever written. The most important thing for you to take away from this talk is X."
-
-One sentence intro. One sentence summary. Third sentence is the most important idea of the talk."*
-
-
 ## Intro
 
 My name is Mark Erikson, and  I work for the BACN program as part of the BIB application team.  This talk is about the tools, technologies, and concepts involved in modern web development.  The most important things for you to take away from this talk are:
@@ -45,7 +37,7 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
   - Browsers: Chrome, FF, Edge, all "evergreen"
   - Single-Page Applications
   - HTML5: canvas / WebGL, WebSockets, Web Workers, data storage, flexbox, OS/native APIs
-  - Major milestones: Node
+  - Major milestones: Node, death of plugins
   - Code Sharing: Github
   - Common data format: JSON
 
@@ -53,23 +45,28 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
 - History of Javascript
   - Invention
   - ES3
+  - jQuery
   - ES5
   - Node
-  - CoffeeScript
+  - Backbone, Underscore, CoffeeScript
   - ES6
   - Beyond
 
 ## The Modern Web Dev Landscape
 
 - "Dancing Monkeys" (?)
+  - Not just doing tiny scripts any more - now building complete applications where all the logic lives in the browser ( https://news.ycombinator.com/item?id=11782234 ).  More than just "render some HTML to show our data".
+  - Keep state out of the DOM
 - Driving concerns
   - Minimize bytes over the wire
   - Compatibility between browsers
   - Fill in gaps in JS standard library and language spec
+  - Code reuse and sharing
   - Increasing size and complexity of applications
 - Tools and Concepts
   - Languages
     - ES6 / ES2015
+    - Babel
     - TypeScript
     - SASS/LESS
   - Code Reuse and Sharing
@@ -86,6 +83,8 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
     - Assertions: Chai
     - Mocking: Sinon
     - Browser testing: Selenium, PhantomJS; JSDOM
+  - Linting
+    - ESLint
   - Standard Library fillins
     - jQuery, Underscore/Lodash, etc
   - JS Frameworks
@@ -100,22 +99,49 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
     - Redux
   - Other Trends
     - Backends
-      - X as a Service, backends
+      - X as a Service, "serverless" backends
       - Microservices, containers
-    - Client-side
-      - CSS in JS
-      - Component architecture
-      - WebGL, Web Workers, Service Workers
     - Client/Server
       - Data transfer schemas/tools: GraphQL, Falcor
       - Isomorphic/universal apps
-      - Cross-platform / desktop JS apps
+      - Cross-platform / desktop / mobile JS apps
+    - Client-side
+      - Component architecture
+      - Virtual DOM
+      - CSS in JS
+      - WebGL, Web Workers, Service Workers
+      - Alternate languages (Elm, Clojure)
     - Conceptual
       - Functional Programming
       - Reactive Programming
       - Typing
-    
+
 
 ## Building a Modern Web App
 
-- Problem/solution
+- Quick Kontour v1 demo (w/ GE plugin?)
+- GWT concerns / rationale
+- Goals / drivers
+  - Non-deprecated tech stack with modern tools
+  - Improved dev experience
+  - Better maintainability (code structure, debugging, dataflow / reasoning)
+  - Thinking in React principles ( http://banderson.github.io/reactive-component-ui-presentation/#/2 )
+- Technologies
+  - ES6
+  - React
+  - Redux
+  - Webpack
+  - Mocha test stack
+  - Cesium
+  - Semantic-UI
+- Kontour v2 prototype demo
+  - File watching
+  - Hot reloading
+  - Redux DevTools and time travel debugging
+  - Selected item editing
+  - Test running
+
+## Closing
+
+- Summary: Tons of tools. Don't get overwhelmed, don't have to use everything or chase the new shiny. Pick stuff that fits your task.
+- Further resources
