@@ -26,42 +26,95 @@ My name is Mark Erikson, and  I work for the BACN program as part of the BIB app
   - Applications: scripts or mid-sized servers
   - Interactivity: Java applets, ActiveX, DHTML
   - Browsers: Mosaic, Netscape, IE
-  - Major milestones: Birth of JS 
+  - Major milestones: Birth of JS / HTML / CSS
   - Code sharing: "script list" sites
   - Common data format: plain HTML with tables
 - Web 2.0 (2001-2010)
-  - Typical site: server-rendered pages, MySQL database, running on J2EE or Rails  
+  - Typical site: server-rendered pages, MySQL database, running on J2EE or Rails
   - Server technologies: J2EE, ASP.NET, Rails, Django, LAMP
   - Client technologies: AJAX, MooTools/Prototype, jQuery
   - Browsers: Mozilla -> Firefox, IE6 -> IE8, Opera, Chrome
   - Rich Internet Applications (Flash, Silverlight, GWT)
-  - Major milestones: AJAX, smartphones
+  - Major milestones: AJAX, smartphones, JSON
   - Code sharing: SourceForge
   - Common data format: XML
 - The Modern Era (2010-2016)
-  - Typical site: client-side JS, JSON API, microservices built with Node
-  - Server technologies: Node, ...
+  - Typical site: client-side JS, JSON API, microservices built with Node running on AWS, NoSQL DB
+  - Server technologies: Node/Express, AWS, Play, DropWizard, ASP.NET MVC, Heroku
   - Client technologies: HTML5, Backbone, Angular, Ember, React, Bootstrap
   - Browsers: Chrome, FF, Edge, all "evergreen"
   - Single-Page Applications
+  - HTML5: canvas / WebGL, WebSockets, Web Workers, data storage, flexbox, OS/native APIs
   - Major milestones: Node
   - Code Sharing: Github
   - Common data format: JSON
-  
+
+
 - History of Javascript
-  - Invention  
+  - Invention
   - ES3
   - ES5
   - Node
+  - CoffeeScript
   - ES6
   - Beyond
 
 ## The Modern Web Dev Landscape
 
 - "Dancing Monkeys" (?)
-  
-  
-
+- Driving concerns
+  - Minimize bytes over the wire
+  - Compatibility between browsers
+  - Fill in gaps in JS standard library and language spec
+  - Increasing size and complexity of applications
+- Tools and Concepts
+  - Languages
+    - ES6 / ES2015
+    - TypeScript
+    - SASS/LESS
+  - Code Reuse and Sharing
+    - Module formats: AMD, CommonJS, ES6
+    - Packaging: Node, NPM
+  - Build Tools
+    - Bundling, minification, code splitting
+    - Grunt, Gulp
+    - Browserify, Webpack
+  - Dev Experience
+    - Live reloading, Hot reloading, Sourcemaps
+  - Testing
+    - Test runners: Mocha, Jasmine, Tape, Karma
+    - Assertions: Chai
+    - Mocking: Sinon
+    - Browser testing: Selenium, PhantomJS; JSDOM
+  - Standard Library fillins
+    - jQuery, Underscore/Lodash, etc
+  - JS Frameworks
+    - "Every framework is..." (https://www.reddit.com/r/reactjs/comments/39wsfi/what_are_pros_and_cons_of_using_reactjsflux/cs7msvp)
+    - Backbone
+    - Angular
+    - Ember
+    - React
+  - Routing
+  - Data Management
+    - Flux
+    - Redux
+  - Other Trends
+    - Backends
+      - X as a Service, backends
+      - Microservices, containers
+    - Client-side
+      - CSS in JS
+      - Component architecture
+      - WebGL, Web Workers, Service Workers
+    - Client/Server
+      - Data transfer schemas/tools: GraphQL, Falcor
+      - Isomorphic/universal apps
+      - Cross-platform / desktop JS apps
+    - Conceptual
+      - Functional Programming
+      - Reactive Programming
+      - Typing
+    
 
 ## Building a Modern Web App
 
